@@ -1,6 +1,7 @@
 /*Write a program Where the user is asked to enter two integers(divisor and dividend)
     and the quotient and the remainder of their division is computed.
     (Both divisor and dividend should be integers.)*/  
+
 #include<iostream>
 #include<iomanip>
   using namespace std;
