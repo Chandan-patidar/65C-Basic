@@ -1,0 +1,17 @@
+/* Write a program to calculate power to calculate power of a Number using inbuilt pow() function by taking Two inputs from
+    user as Base and exponent respectively */
+    
+#include<iostream>
+using namespace std;
+int main(){
+    int Base,exponent,power=1;
+    cout<<"Enter a Base = ";
+    cin>>Base;
+    cout<<"Enter a exponent = ";
+    cin>>exponent;
+    for(int i=1;i<=exponent;i++){
+        power*=Base;
+    }
+    cout<<power;
+    
+}
